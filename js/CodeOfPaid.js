@@ -21,9 +21,10 @@ var H2 = (G2 - 10*Math.floor(H1));
 var I1 = (H2 / 1);
 var I2 = (H2 - 1*Math.floor(I1));
 
-var Multiplos = (Constante[0]*Math.floor(B1))+(Constante[1]*Math.floor(C1))+
-                (Constante[2]*Math.floor(D1))+(Constante[3]*Math.floor(E1))+
-                (Constante[0]*Math.floor(F1))+(Constante[1]*Math.floor(G1))+(Constante[1]*Math.floor(H1))+(Constante[3]*H2);
+var Multiplos = (Constante[2]*Math.floor(B1))+(Constante[3]*Math.floor(C1))+
+                (Constante[0]*Math.floor(D1))+(Constante[1]*Math.floor(E1))+
+                (Constante[2]*Math.floor(F1))+(Constante[3]*Math.floor(G1))+
+                (Constante[0]*Math.floor(H1))+(Constante[1]*H2);
     
 var DigitoVerificador = Multiplos % 10;
     
