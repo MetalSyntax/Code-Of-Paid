@@ -1,0 +1,165 @@
+/*Fuentes*/
+@font-face {
+font-family: "FontAwesome";
+src: url('../fonts/FontAwesome.otf');
+src: url('../fonts/fontawesome-webfont.eot');
+src: url('../fonts/fontawesome-webfont.eot?#iefix') format('eot'),
+url('../fonts/fontawesome-webfont.woff') format('woff'),
+url('../fonts/fontawesome-webfont.ttf') format('truetype'),
+url('../fonts/fontawesome-webfont.svg#FontAwesome') format('svg');
+font-weight: normal;
+font-style: normal;
+}
+@font-face{
+font-family: "Roboto";
+src:url('../fonts/Roboto-Condensed.ttf')format('truetype');
+src:url('../fonts/Roboto-Regular.ttf')format('truetype');
+}
+/*General*/
+html, body {
+    position: relative;
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    margin: 0;
+    height: 100%; 
+    font-family: 'Roboto Condensed', sans-serif;
+    color: black;
+    background-color: whitesmoke;
+    text-align: center;
+    min-width: 250px;
+}
+/*Enlaces*/
+a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white; 
+    display: flex;
+    transition: 0.3s;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-decoration: none;
+    text-align: justify;
+}
+ a:hover, a:focus{
+     /*background: #f2f2f2;*/
+     color: grey;
+     text-decoration: none;
+}
+/*Entradas*/
+input {
+    margin: 3px;
+	padding: 10px 10px;
+	border: 2px #e65c00;
+    border-radius: 10px;
+	border-style: solid;
+	background-color: #F0F3F4;
+	font-family: 'Roboto Condensed', sans-serif;  
+}
+/* SELECTORES */
+select {
+    margin: 3px;
+	padding: 7px 7px;
+	border: 2px #336699;
+    border-radius: 10px;
+	border-style: solid;
+	background-color: #F0F3F4;
+	font-family: 'Roboto Condensed', sans-serif;  
+}
+}
+/* PARRAFOS */
+p {
+	color: #595959; 
+	padding: 5px 5px;
+	text-align: center;
+}
+/*List*/
+* {
+  box-sizing: border-box;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  cursor: pointer;
+  position: relative;
+  padding: 12px 8px 12px 40px;
+  background: #eee;
+  font-size: 18px;
+  transition: 0.2s;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+ul li:nth-child(odd) {
+  background: #f9f9f9;
+}
+ul li:hover {
+  background: #ddd;
+}
+ul li.checked {
+  background: #888;
+  color: #fff;
+  text-decoration: line-through;
+}
+ul li.checked::before {
+  content: '';
+  position: absolute;
+  border-color: #fff;
+  border-style: solid;
+  border-width: 0 2px 2px 0;
+  top: 10px;
+  left: 16px;
+  transform: rotate(45deg);
+  height: 15px;
+  width: 7px;
+}
+.close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 12px 16px 12px 16px
+}
+.header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/*Footer*/
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background: #003681;
+  border-top: solid 1px #f5f5f5;
+  overflow: hidden;
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: white;
+}
+.footer > .text-muted {
+  color: white;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.footer > ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 0.25em;
+}
+.footer > ul li {
+  display: inline-block;
+}
+.footer ul li a {
+  color: white;
+  text-shadow: 1px 2px 3px grey;
+  padding: 0 1em;
+}
+.footer ul li:not(:last-child) {
+  border-right: 1px solid white;
+}
+#prod_conc {
+    text-align: justify;
+}

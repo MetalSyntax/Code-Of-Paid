@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<!--Meta-->
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimal-ui">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<!--Titulo-->
+    <title>Code of Paid</title>
+<!--Icono-->
+    <link rel="icon" href="favicon.ico" sizes="16x16">
+<!--Scrips Principales-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+<!--Estilos Principales-->
+   <link href="css/bootstrap.min.css" rel="stylesheet" >
+   <link href="css/font-awesome.min.css" rel="stylesheet">
+<!--Estilos Personalizados-->
+    <link href="css/CodeOfPaid.css" rel="stylesheet">
+</head>
+<body>
+<!--Barra de Navegacion-->
+<nav class="navbar" style="background-color: #ff6600">
+<a class="navbar-brand" href="#">
+<img src="web_hi_res_512.png" width="40" height="40" class="d-inline-block align-top" alt="">Code Of Paid</a>
+</nav>
+<!--Contenido-->
+<div class="card">
+<div class="card-body">
+<h3>Codigo de Pago</h3>
+    <form id="CDP">
+    <p>ID del Cliente</p>
+    <input type="number" id="IDC" value="0" required/><br/>
+    <p>Resultado</p>
+    <input type="text" id="Resultado_CDP" value="0" disabled/><br/>
+	<input type="button" value="Calcular" onclick="Calcular_CDP()"/>
+    <input type="button" value="Limpiar" onclick="Limpiar_CDP()">
+    </form>
+    <p></p>
+    <h3>Historial</h3>
+    <ul id="myUL">
+    </ul>
+</div>
+</div>
+<!--Scripts-->
+    <script src="js/CodeOfPaid.js"></script>
+</body>    
+</html>
