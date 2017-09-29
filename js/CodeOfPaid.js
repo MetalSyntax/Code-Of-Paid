@@ -1,5 +1,14 @@
 /*Codigo de Pago*/
 function Calcular_CDP(){
+    
+/*Validacion de Numeros*/
+if (document.getElementById("IDC").value.length<4){ 
+alert("El ID es muy corto");
+}
+if (document.getElementById("IDC").value.length>8){ 
+alert("El ID es muy largo");
+}    
+if (document.getElementById("IDC").value.length>=5 && document.getElementById("IDC").value.length<=8){
 
 var Constante = [9,7,3,1];
 
@@ -31,7 +40,7 @@ var DigitoVerificador = Multiplos % 10;
 var CodigodePago = A1.concat(DigitoVerificador);
 
 $("#Resultado_CDP").val(CodigodePago);
-                        
+                   
 /*Hitorial*/
 var myNodelist = document.getElementsByTagName("LI");
 var i;
@@ -57,7 +66,7 @@ list.addEventListener('click', function(ev) {
   }
 }, false);
     
-    var li = document.createElement("li");
+  var li = document.createElement("li");
   var inputValue = document.getElementById("Resultado_CDP").value;
   var t = document.createTextNode(inputValue);
   li.appendChild(t);
@@ -79,11 +88,11 @@ list.addEventListener('click', function(ev) {
       var div = this.parentElement;
       div.style.display = "none";
     }
-  }  
-    
+  } 
 }
-
+}
 /*Limpiar*/
 function Limpiar_CDP() {
     document.getElementById("CDP").reset();
 }
+

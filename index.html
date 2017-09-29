@@ -32,11 +32,11 @@
 <h3>Codigo de Pago</h3>
     <form id="CDP">
     <p>ID del Cliente</p>
-    <input type="number" id="IDC" value="0" required/><br/>
+    <input type="number" id="IDC" value="0" maxlength="8" required/><br/>
     <p>Resultado</p>
-    <input type="text" id="Resultado_CDP" value="0" disabled/><br/>
-	<input type="button" value="Calcular" onclick="Calcular_CDP()"/>
-    <input type="button" value="Limpiar" onclick="Limpiar_CDP()">
+    <input type="number" id="Resultado_CDP" value="0" disabled/><br/>
+	<input type="button" value="Calcular" style="background-color: #ff6600" onclick="Calcular_CDP()"/>
+    <input type="button" value="Limpiar" style="background-color: #ff6600" onclick="Limpiar_CDP()">
     </form>
     <p></p>
     <h3>Historial</h3>
