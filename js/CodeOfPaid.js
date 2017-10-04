@@ -37,9 +37,9 @@ var Multiplos = (Constante[2]*Math.floor(B1))+(Constante[3]*Math.floor(C1))+
     
 var DigitoVerificador = Multiplos % 10;
     
-var CodigodePago = A1.concat(DigitoVerificador);
+var CodigodePago = 0+A1.concat(DigitoVerificador);
 
-$("#Resultado_CDP").val(0+CodigodePago);
+$("#Resultado_CDP").val(CodigodePago);
                    
 /*Hitorial*/
 var myNodelist = document.getElementsByTagName("LI");
