@@ -39,7 +39,7 @@ var DigitoVerificador = Multiplos % 10;
     
 var CodigodePago = A1.concat(DigitoVerificador);
 
-$("#Resultado_CDP").val(CodigodePago);
+$("#Resultado_CDP").val(0+CodigodePago);
                    
 /*Hitorial*/
 var myNodelist = document.getElementsByTagName("LI");
