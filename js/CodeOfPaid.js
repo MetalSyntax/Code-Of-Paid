@@ -5,7 +5,7 @@ function Calcular_CDP(){
 if (document.getElementById("IDC").value.length<4){ 
 alert("El ID es muy corto");
 }
-if (document.getElementById("IDC").value.length>8){ 
+if (document.getElementById("IDC").value.length>9){ 
 alert("El ID es muy largo");
 }    
 if (document.getElementById("IDC").value.length>=5 && document.getElementById("IDC").value.length<=8){
