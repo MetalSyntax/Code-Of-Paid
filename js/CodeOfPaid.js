@@ -3,10 +3,12 @@ function Calcular_CDP(){
     
 /*Validacion de Numeros*/
 if (document.getElementById("IDC").value.length<4){ 
-alert("El ID es muy corto");
+var Error = "El ID es muy corto";
+document.getElementById("Error").innerHTML = Error; 
 }
 if (document.getElementById("IDC").value.length>10){ 
-alert("El ID es muy largo");
+var Error = "El ID es muy largo";
+document.getElementById("Error").innerHTML = Error; 
 }    
 if (document.getElementById("IDC").value.length>=5 && document.getElementById("IDC").value.length<=9){
 
@@ -48,5 +50,6 @@ $("#Resultado_CDP").val(CodigodePago);
 /*Limpiar*/
 function Limpiar_CDP() {
     document.getElementById("CDP").reset();
+    location.reload();
 }
 
