@@ -2,11 +2,11 @@
 function Calcular_CDP(){
     
 /*Validacion de Numeros*/
-if (document.getElementById("IDC").value.length<4){ 
+if (document.getElementById("IDC").value.length=<4){ 
 var Error = "El ID es muy corto";
 document.getElementById("Error").innerHTML = Error; 
 }
-if (document.getElementById("IDC").value.length>10){ 
+if (document.getElementById("IDC").value.length>=10){ 
 var Error = "El ID es muy largo";
 document.getElementById("Error").innerHTML = Error; 
 }    
