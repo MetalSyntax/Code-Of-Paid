@@ -9,8 +9,6 @@ Aunque su codigo esta a libre disposicion fue desarrollado para un proposito esp
 
 ## Nota Importante 
 
-Primera version modo de prueba
-
 - **V1.0.1** Correccion de errores y mejoras de menor nivel
 
 > [CodeOfPaid 1.0.0 Beta](http://quainator.com/5Hi7) 28/09/17
