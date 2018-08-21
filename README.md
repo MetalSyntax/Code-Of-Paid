@@ -1,7 +1,8 @@
 # CodeOfPaid
 Code Of Paid es un generador de codigo sencillo mediante un ID personal para uso empresarial. 
-
 Aunque su codigo esta a libre disposicion fue desarrollado para un proposito especifico de mejora en un proceso interno.
+
+**Proyecto Funcional**
 
 ## Donate
 
