@@ -1,4 +1,4 @@
-# CodeOfPaid
+# Code Of Paid
 Derechos de Autor (C) 2017-2018 Wonder Diaz
 
 Esta aplicacion es un software de codigo abierto para la realización de generar un codigo sencillo mediante un ID personal.
