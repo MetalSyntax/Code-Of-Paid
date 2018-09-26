@@ -1,8 +1,7 @@
 # CodeOfPaid
 Derechos de Autor (C) 2017-2018 Wonder Diaz
 
-Code Of Paid es un generador de codigo sencillo mediante un ID personal para uso empresarial. 
-Aunque su codigo esta a libre disposicion fue desarrollado para un proposito especifico de mejora en un proceso interno.
+Esta aplicacion es un software de codigo abierto para la realización de generar un codigo sencillo mediante un ID personal.
 
 **Proyecto Funcional**
 
@@ -12,7 +11,9 @@ La aplicación está disponible para descargar en GitHub.
 
 ## Nota Importante 
 
-La version para descarga solo disponible para Android
+La version para descarga solo disponible para Android.
+Esta aplicacion es para  uso empresarial. 
+Fue desarrollado para la mejora en un proceso interno.
 
 ## Caracteristicas
 
