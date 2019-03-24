@@ -1,5 +1,5 @@
 # Code Of Paid
-Derechos de Autor (C) 2017-2018 Wonder Diaz
+Derechos de Autor (C) 2017-2019 Wonder Diaz
 
 Esta aplicacion es un software de codigo abierto para la realización de generar un codigo sencillo mediante un ID personal.
 
@@ -33,7 +33,7 @@ Puede ser ejecutado desde Android de manera Nativa como Aplicacion Instalable o 
 
 ## Codigo Fuente
 
-CodeOfPaid: https://github.com/MetalSyntax/CodeOfPaid/
+Code-Of-Paid: https://github.com/MetalSyntax/CodeOfPaid/
 
 ## Donación
 
